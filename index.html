@@ -1,95 +1,44 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>La Anunciada</title>
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="icon" href="assets/imagenes/logo.ico">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Oswald:wght@400;500&display=swap" rel="stylesheet">	
-	<link rel="stylesheet" type="text/css" href="css/estilo.css">
-</head>
-<body class="container">
-	<header class="nav">
-		<!-- <div class="nav__logo"> -->
-		<a href="#"><img src="assets/imagenes/LogoMakr-5TDpwB.png" alt="logo"></a>
-		<!-- </div> 	 -->
-		 <nav>
-			<ul class="nav__list">
-				<li class="nav__item"><a href="#">Home</a></li>
-				<li class="nav__item"><a href="views/sobre_nosotros.html">Historia</a></li>
-				<li class="nav__item"><a href="views/productos.html">Productos</a></li>
-				<li class="nav__item"><a href="views/inicio_sesion.html">Mi Cuenta</a></li>
-				<li class="nav__item"><a href="views/contacto.html">Contacto</a></li>
-			</ul>
-		 </nav>
-	</header>
-	<main class="hero">
-		<div class="principal">
-			<h1>GENETICA DE EXCELENCIA</h1>
-			<!-- <img  src="assets/imagenes/WhatsApp Image 2021-11-12 at 17.46.45.png" alt="entrada al campo"> -->
-		</div>
-		<div class="contenido__imagen">
-			<p>En cabana la anunciada, estamos comprometidos con nuestras geneticas para poder superar las expectativas de todo productor que decida elegirnos.</p>
-		</div>	
-	</main>	
-		<div class="titulo__secundario">
-		<div>
-			<h2>Nuevos Ejemplares</h2>
-		</div>
-		</div>
-		<div class="textoH">
-			<a href="views/productos.html"><h3>HEMBRAS</h3></a>			
-			<p>Con nuestro desarrollo garantizamos las mejores cualidades, para que puedan ser las mejores madres del mercado</p>
-		</div>	
-		<section class="hembras">		
-		<!-- ESTO DEBERIA SER UN CARRUSEL O UNA PRESENTACION TIPO DIAPOSITIVAS, DE LA INFO DE LOS ANIMALES 
-			<article class="carrousel">
-					 <img src="https://image.isu.pub/131211212737-994486f03a1582db7343fc74e5de618d/jpg/page_16.jpg" width="600" height="400"> 
-			</article>-->
-		</section>
-			<!-- DEBERIA SER ALGO ASI PERO MAS SUTIL Y UN POCO MENOS DE INFORMACION -->				 
-		<section class="machos">
-			<!-- <article class="carrousel__2">	img src="https://image.isu.pub/131211212737-994486f03a1582db7343fc74e5de618d/jpg/page_16.jpg" width="600" height="400"> 
-			</article>-->
-		</section>	
-				<!-- DEBERIA SER ALGO ASI PERO MAS SUTIL Y UN POCO MENOS DE INFORMACION -->
-		<div class="textoM">
-			<a href="views/productos.html"><h3>MACHOS</h3></a>
-			<p>Con nuestro desarrollo garantizamos las mejores cualidades, para que puedan ser los mejores padres del mercado</p>
-		</div>		
-	<aside class="noticias">
-		<span>
-			<h3>NOTICIAS</h3>
-		</span>
-		<div>
-			<h4>NOTICIA</h4>
-		</div>
-		<div>
-			<h4>NOTICIA</h4>
-		</div>
-		<div>
-			<h4>NOTICIA</h4>
-		</div>
-		<div>
-			<h4>NOTICIA</h4>
-		</div>
-		<div>
-			<h4>NOTICIA</h4>
-		</div>
-		<div>
-			<h4>NOTICIA</h4>
-		</div>
-	</aside>
-	<footer class="footer">
-		<a href="views/contacto.html" target="_blank"><h3>CONTACTO</h3></a>
-		<div>
-			<a href="#"><img src="https://icongr.am/fontawesome/instagram.svg?size=40&color=0b5606" alt="instagram"></a>	
-			<a href="#"><img src="https://icongr.am/fontawesome/facebook-square.svg?size=40&color=0b5606" alt="facebook"></a>	
-		</div>
-		<a href="#"><img class="logo" src="assets/imagenes/LogoMakr-5TDpwB.png" alt="logo"></a>	
-	</footer>
-</body>
-</html>	
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+    <title>La Anunciada</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header class="row">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+  </body>
+</html>
