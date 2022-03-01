@@ -537,8 +537,12 @@ video{
 
 /*INICIO SESION*/
 
+.over{
+	overflow-y: hidden;
+}
+
 .Cuenta #video{
-	height: 75.3vh;
+	height: 80vh;
 }
 
 .video .is{
